@@ -1,0 +1,44 @@
+
+.banner h1, .banner h2 {
+text-shadow: 1px 1px 1px black;
+text-indent: 10%;
+}
+
+.banner {
+height: 100vh;
+margin: 0px;
+color: white ;
+display : block;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: left;
+object-fit: cover;
+transition: 1s;
+background-position: center;
+}
+
+
+.carousel-control-prev {
+	color : black;
+}
+
+
+.banner-fixed {
+	height: 35vh;
+	background-image : url("../images/david.jpg");
+	margin: 48px 0;
+	margin-bottom: 2px;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+.banner {
+	background-position: center;
+}
+.carousel-control-next-icon
+{
+	background-color: black;
+}

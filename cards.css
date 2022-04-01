@@ -1,0 +1,54 @@
+.card-white {
+	background-color: white;
+	padding : 10px;
+	margin : 50px;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 6px;
+}
+
+.card-white img {
+	width: 70%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+
+@media (min-width: 576px) { 
+.cards {
+	grid-template-columns: 1fr 1fr;
+	}
+	
+}
+
+@media (min-width: 768px) { 
+	.cards {
+	grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (min-width: 992px) { 
+.cards {
+	grid-template-columns: 1fr 1fr; 
+}
+}
+
+@media (min-width: 1200px) { 
+.cards {
+	grid-template-columns: 1fr 1fr 1fr ;
+}
+}
+
+@media (min-width: 1400px) { 
+.cards {
+	grid-template-columns: 1fr 1fr 1fr ;
+}
+}
+

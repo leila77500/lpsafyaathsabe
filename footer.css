@@ -1,0 +1,36 @@
+
+.footer {
+  background-color: black;
+ 	padding: 32px;
+ 	height: 300px;
+ 	text-align: center;
+}
+
+.footer p {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.list-inline li {
+  display: inline;
+
+}
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline i {
+  font-size: 48px;
+  color: white;
+  width: 56px;
+}
+
+ .list-inline i:hover {
+  color: white;
+ }
+
+ .list-inline i:hover {
+  transform: rotate(45deg);
+ }
+

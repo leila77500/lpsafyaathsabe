@@ -1,0 +1,43 @@
+@import url('banner.css');
+@import url('buttons.css');
+@import url('cards.css');
+@import url('footer.css');
+@import url('bars.css');
+
+
+body {
+margin: 0;
+background-color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+width: 30%;
+margin: 30px;
+margin-bottom: 0px;
+text-align: center;
+}
+
+.container p {
+width: 70%;
+margin: 0px auto ;
+text-align: center;
+}
+
+h1 , h2 {
+	color: black;
+}
+
+#col {
+  column-count: 2;
+  margin: 56px;
+  text-align: left;
+}
+
+.titre {
+text-align: center;
+font-weight: bold;
+}
